@@ -1,0 +1,2 @@
+class logic::test1 {
+}
