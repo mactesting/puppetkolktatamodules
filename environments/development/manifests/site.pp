@@ -1,10 +1,8 @@
-$scopevariable = "top scope"
 node default {
 }
-node 'node1' {
+node 'node2' {
 #	class { 'webserver':
-#		env1 => "PRODUCTION",	
+#		env1 => "DEVELOPMENT",
 #	}
 	include roles::webserver
 }
-
